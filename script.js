@@ -1,15 +1,19 @@
-//link color to current time
-
-moment().format('MMMM Do YYYY, h:mm:ss a'); // November 29th 2021, 6:16:30 pm
-moment().format('dddd');                    // Monday
-moment().format("MMM Do YY");               // Nov 29th 21
-moment().format('YYYY [escaped] YYYY');     // 2021 escaped 2021
-moment().format();                          // 2021-11-29T18:16:30-05:00
+var crntDay = document.getElementById("currentDay");
+var timeBlock = document.getElementById ("time-block");
+var saveBtn = document.querySelectorAll("saveBtn");
 
 
+var date = moment().format('MMMM Do YYYY, h:mm:ss a');
+crntDay.innerHTML=date;
 
-//add event listener to time block adding text
+//adding in date and time + linking color (event) to textarea
 
+
+
+
+
+
+//linking the api styles
 
 
 //after save button commits are made to local storage
