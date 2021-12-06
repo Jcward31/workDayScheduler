@@ -1,7 +1,5 @@
-const moment = require("moment");
 
 var crntDay = document.getElementById("currentDay");
-var timeBlock = document.getElementByClass ("time-block");
 var saveBtn = document.querySelectorAll("saveBtn");
 
 
@@ -28,8 +26,6 @@ crntDay.innerHTML=date;
 
 //setting up color change based on time
 var hour = moment().format('H');
-
-console.log(t);
 
 for (i = 0; i<9; i++) {
 
