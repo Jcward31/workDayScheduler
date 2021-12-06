@@ -43,23 +43,89 @@ if (time > hour) {
     currentDay.classList.add("future");
 }
 
-}
+}; 
 
 
 
 //after save button commits are made to local storage
 
-var saveBtn9 = document.querySelectorAll("saveBtn9");
-var saveBtn10 = document.querySelectorAll("saveBtn10");
-var saveBtn11 = document.querySelectorAll("saveBtn11");
-var saveBtn12 = document.querySelectorAll("saveBtn12");
-var saveBtn1 = document.querySelectorAll("saveBtn1");
-var saveBtn2 = document.querySelectorAll("saveBtn2");
-var saveBtn3 = document.querySelectorAll("saveBtn3");
-var saveBtn4 = document.querySelectorAll("saveBtn4");
-var saveBtn5 = document.querySelectorAll("saveBtn5");
+var saveBtn9 = document.getElementById("saveBtn9");
+var saveBtn10 = document.getElementById("saveBtn10");
+var saveBtn11 = document.getElementById("saveBtn11");
+var saveBtn12 = document.getElementById("saveBtn12");
+var saveBtn1 = document.getElementById("saveBtn1");
+var saveBtn2 = document.getElementById("saveBtn2");
+var saveBtn3 = document.getElementById("saveBtn3");
+var saveBtn4 = document.getElementById("saveBtn4");
+var saveBtn5 = document.getElementById("saveBtn5");
 
-var savBtn =[saveBtn9,saveBtn10,saveBtn11,saveBtn12,saveBtn1,saveBtn2,saveBtn3,saveBtn4,saveBtn5];
+
+//var plan =localStorage.getitem ("dlyplan");
+
+//var dlyplan = JSON.parse(plan);
+
+
+
+saveBtn9.addEventListener("click",function() {
+var ninetext =document.getElementById("9").value;
+
+
+localStorage.setItem("plan9", ninetext);
+
+});
+
+saveBtn10.addEventListener("click",function() {
+    var saveBtn10 =document.getElementById("saveBtn9").value;
+
+
+    });
+
+    saveBtn11.addEventListener("click",function() {
+        var saveBtn11 =document.getElementById("saveBtn9").value;
+
+
+        });
+
+        
+        saveBtn12.addEventListener("click",function() {
+            var saveBtn12 =document.getElementById("saveBtn9").value;
+
+
+            });
+
+            
+            saveBtn1.addEventListener("click",function() {
+                var saveBtn1 =document.getElementById("saveBtn9").value;
+
+
+                });
+
+                saveBtn2.addEventListener("click",function() {
+                    var saveBtn2 =document.getElementById("saveBtn9").value;
+
+
+                    });
+                        
+                
+                saveBtn3.addEventListener("click",function() {
+                    var saveBtn3 =document.getElementById("saveBtn9").value;
+
+
+                    });
+                            
+                    saveBtn9.addEventListener("click",function() {
+                        var saveBtn4 =document.getElementById("saveBtn9").value;
+
+
+                        });
+
+                        saveBtn5.addEventListener("click",function() {
+                            var saveBtn5 =document.getElementById("saveBtn9").value;
+
+
+                            });
+
+                            
 
 
 
