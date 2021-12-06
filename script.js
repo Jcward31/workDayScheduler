@@ -157,3 +157,27 @@ saveBtn10.addEventListener("click",function() {
  
 var nineplan = localStorage.getItem("plan9");
 document.getElementById("9").value=(nineplan);
+
+var tenplan = localStorage.getItem("plan10");
+document.getElementById("10").value=(tenplan);
+
+var elevenplan = localStorage.getItem("plan11");
+document.getElementById("11").value=(elevenplan);
+
+var twelveplan = localStorage.getItem("plan12");
+document.getElementById("12").value=(twelveplan);
+
+var oneplan = localStorage.getItem("plan1");
+document.getElementById("1").value=(oneplan);
+
+var twoplan = localStorage.getItem("plan2");
+document.getElementById("2").value=(twoplan);
+
+var threeplan = localStorage.getItem("plan3");
+document.getElementById("3").value=(threeplan);
+
+var fourplan = localStorage.getItem("plan4");
+document.getElementById("4").value=(fourplan);
+
+var fiveplan = localStorage.getItem("plan5");
+document.getElementById("5").value=(fiveplan);
