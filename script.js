@@ -34,18 +34,18 @@ console.log(t);
 for (i = 0; i<9; i++) {
 
 var time = i + 9;
-var d =amPm[i];
+var currentDay =amPm[i];
 
 if (time < hour) {
-    timeBlock.classList.add("past");
+    currentDay.classList.add("past");
 }
 
 if (time == hour) {
-    timeBlock.classList.add("present");
+    currentDay.classList.add("present");
 }
 
 if (time > hour) {
-    timeBlock.classList.add("future");
+    currentDay.classList.add("future");
 }
 
 }
