@@ -76,52 +76,76 @@ localStorage.setItem("plan9", ninetext);
 
 saveBtn10.addEventListener("click",function() {
     var saveBtn10 =document.getElementById("saveBtn9").value;
+    var tentext =document.getElementById("10").value;
 
+
+    localStorage.setItem("plan10", tentext);
 
     });
 
     saveBtn11.addEventListener("click",function() {
         var saveBtn11 =document.getElementById("saveBtn9").value;
+        var eleventext =document.getElementById("11").value;
 
+
+        localStorage.setItem("plan11", eleventext);
 
         });
 
         
         saveBtn12.addEventListener("click",function() {
             var saveBtn12 =document.getElementById("saveBtn9").value;
+            var twelvetext =document.getElementById("12").value;
 
+
+            localStorage.setItem("plan12", twelvetext);
 
             });
 
             
             saveBtn1.addEventListener("click",function() {
                 var saveBtn1 =document.getElementById("saveBtn9").value;
+                var onetext =document.getElementById("1").value;
 
+
+                localStorage.setItem("plan1", onetext);
 
                 });
 
                 saveBtn2.addEventListener("click",function() {
                     var saveBtn2 =document.getElementById("saveBtn9").value;
+                    var twotext =document.getElementById("2").value;
 
+
+                    localStorage.setItem("plan2", twotext);
 
                     });
                         
                 
                 saveBtn3.addEventListener("click",function() {
                     var saveBtn3 =document.getElementById("saveBtn9").value;
+                    var threetext =document.getElementById("3").value;
 
+
+                    localStorage.setItem("plan3", threetext);
 
                     });
                             
                     saveBtn9.addEventListener("click",function() {
                         var saveBtn4 =document.getElementById("saveBtn9").value;
+                        var fourtext =document.getElementById("4").value;
 
+
+                        localStorage.setItem("plan4", fourtext);
 
                         });
 
                         saveBtn5.addEventListener("click",function() {
                             var saveBtn5 =document.getElementById("saveBtn9").value;
+                            var fivetext =document.getElementById("5").value;
 
+
+                            localStorage.setItem("plan5", fivetext);
 
                             });
 
