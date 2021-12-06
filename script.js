@@ -154,3 +154,6 @@ saveBtn10.addEventListener("click",function() {
 
 
 //load previous saves when paged loads
+ 
+var nineplan = localStorage.getItem("plan9");
+document.getElementById("9").value=(nineplan);
